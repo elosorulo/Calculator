@@ -6,7 +6,7 @@ import com.despegar.hf.calculator.service.Calculator;
 
 @Controller
 public class CalculatorController {
-    
+
     private Calculator calculatorService;
 
     // Put here all exposed operations via RequestMappings
@@ -18,4 +18,5 @@ public class CalculatorController {
     public void setCalculatorService(Calculator calculatorService) {
         this.calculatorService = calculatorService;
     }
+    // Github
 }
